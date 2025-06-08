@@ -4,14 +4,21 @@ on: push
 
 jobs:
   first_job:
+    name: Declarando el servidor
     runs-on: ubuntu-latest
 
     steps:
-      - name: Saludar
-        run: echo "Hola mundo"
+      - name: mostrar directorio
+        run: ls -la
+      
+      - name: Action
+        uses: actions/checkout@v4
+        
+      - name: mostrar directorio
+        run: ls -la
 
   second_job:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    name: Ejecutando checkout
     needs: first_job
     runs-on: ubuntu-latest
 
