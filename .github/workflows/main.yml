@@ -4,24 +4,25 @@ on: push
 
 jobs:
   first_job:
-    name: Declarando el servidor
+    name: Primer
     runs-on: ubuntu-latest
 
     steps:
-      - name: mostrar directorio
-        run: ls -la
+      - name: Ejemplo de Variable
+        id: step_1  
+        run: echo "my_variable=Hola Mundo" >> $GITHUB_OUTPUT
       
-      - name: Action
-        uses: actions/checkout@v4
+      - name: Obtener mensaje
+        run: echo "${{ steps.step_1.outputs.my_variable }}"
         
       - name: mostrar directorio
         run: ls -la
 
   second_job:
-    name: Ejecutando checkout
+    name: Ejemplo de hola mundo
     needs: first_job
     runs-on: ubuntu-latest
 
     steps:
-      - name: Despedirse
-        run: echo "Adios mundo"
+      - name: Hola mundo
+        run: echo "Hola mundo"
