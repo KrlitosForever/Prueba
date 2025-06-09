@@ -7,6 +7,9 @@ jobs:
     name: Primer
     runs-on: ubuntu-latest
 
+    outputs:
+      salida: ${{ steps.step_1.outputs.my_variable }}
+
     steps:
       - name: Ejemplo de Variable
         id: step_1  
@@ -23,6 +26,9 @@ jobs:
     needs: first_job
     runs-on: ubuntu-latest
 
+    env:
+      SALIDA: ${{ needs.first_job.outputs.salida }}
+
     steps:
-      - name: Hola mundo
-        run: echo "Hola mundo"
+      - name: Saludo a mi amor
+        run: echo "$SALIDA"
