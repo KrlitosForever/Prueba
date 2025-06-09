@@ -1,0 +1,16 @@
+name: Ejemplo Strategy 🎉
+
+on: push
+
+jobs:
+  first_job:
+    name: Prueba de Strategy
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        message: ["Te Amo Alejandra", "Eres el amor de mi vida", "Me encanta abrigarme contigo"]
+
+    steps:
+      - name: print message  
+        run: echo "${{ matrix.message }}"
