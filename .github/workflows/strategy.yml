@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        message: ["Te Amo Alejandra", "Eres el amor de mi vida", "Me encanta abrigarme contigo"]
+        message: ["Te Amo Alejandra", "Eres el amor de mi vida", "Me encanta abrigarme contigo", "17 de junio cumplimos 2 años"]
 
     steps:
       - name: print message  
