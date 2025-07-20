@@ -16,3 +16,6 @@
 - https://github.com/hagezi/dns-blocklists
 
 La lista utilizada fue la siguiente: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
+
+## Docker a mirar
+- https://www.youtube.com/watch?v=gqpJ7RE02Ao
