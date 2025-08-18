@@ -10,3 +10,5 @@ Repo de prueba para ejecutar workflows
 ## Al menos se subio post
 
 ## Otro día sin perder la racha
+
+## la importancia de no perder el foco
