@@ -16,3 +16,5 @@ Repo de prueba para ejecutar workflows
 ## Lo importante es disfrutar la vida, por ejemplo hoy disfrute la caminta bajo la lluvia junto a mi amor
 
 ## Haz que cada día sea mejor que el anterior
+
+## Se amable con la gente no sabes por lo que estan pasando
