@@ -18,3 +18,5 @@ Repo de prueba para ejecutar workflows
 ## Haz que cada día sea mejor que el anterior
 
 ## Se amable con la gente no sabes por lo que estan pasando
+
+## La paciencia es una virtud
