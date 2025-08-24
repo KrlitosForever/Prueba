@@ -20,3 +20,5 @@ Repo de prueba para ejecutar workflows
 ## Se amable con la gente no sabes por lo que estan pasando
 
 ## La paciencia es una virtud
+
+## La vida es un suspiro en el tiempo
