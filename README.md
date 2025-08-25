@@ -22,3 +22,5 @@ Repo de prueba para ejecutar workflows
 ## La paciencia es una virtud
 
 ## La vida es un suspiro en el tiempo
+
+## Siempre hay que estar preparado en la vida
