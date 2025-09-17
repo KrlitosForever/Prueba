@@ -136,7 +136,7 @@ def index():
 
     <label>RUT</label>
     <div class="input">
-      <input id="rut" type="text" placeholder="Ej: 16808505-2" />
+      <input id="rut" type="text" placeholder="Ej: 11111111-1" />
       <svg class="icon" id="icon-rut" viewBox="0 0 16 16" style="display:none"></svg>
     </div>
     <div id="hint-rut" class="hint"></div>
@@ -248,7 +248,7 @@ function validarYMarcar() {
   // rut: validamos formato y DV solo cuando cumple el formato
   const r = rut.value.trim();
   if (!r) setValid(rut, iconRut, hintRut, null);
-  else if (!reRut.test(r)) setValid(rut, iconRut, hintRut, false, 'Formato: 16808505-2');
+  else if (!reRut.test(r)) setValid(rut, iconRut, hintRut, false, 'Formato: 11111111-1');
   else {
     const ok = validarRutCompleto(r);
     setValid(rut, iconRut, hintRut, ok, ok ? '' : 'Dígito verificador incorrecto');
