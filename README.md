@@ -26,3 +26,5 @@ Repo de prueba para ejecutar workflows
 ## Siempre hay que estar preparado en la vida
 
 ## A veces debo pensar en la espectativa de las cosas
+
+## Wormhole envía archivos por la red entre linux y mac
